@@ -14,14 +14,23 @@
 
 </head>
 <body class="" lang="en-US">
-<link rel="stylesheet" type="text/css" href="/static/test.css">
-<!--<script type="text/javascript" src="/static/js/main.js" charset="utf-8"></script>-->
-<script type="text/javascript" src="/static/js/main.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="/resources/test.css">
+<!--<script type="module" src="/js1/main-js.js" charset="utf-8"></script>-->
+<!--<script type="module">-->
+
+<!--    console.log('window.foo: ' + window.foo);-->
+<!--    console.log('window.foo1: ' + window.foo1);-->
+<!--    window.main();-->
+
+
+<!--</script>-->
+
+
+<script type="text/javascript" src="/js2/main-coffee.js" charset="utf-8"></script>
 <script type="text/javascript">
 
-    console.log('window.foo: ' + window.foo);
-    // console.log('window.foo1: ' + window.foo1);
-    main();
+    'use strict'
+    calculate(10)
 
 
 </script>

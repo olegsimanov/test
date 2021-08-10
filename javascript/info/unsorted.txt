@@ -1,0 +1,5 @@
+
+Best Practices in Javascript Library Design by John Resig (designer of jquery)
+https://www.youtube.com/watch?v=0LKDImgRfrg
+
+the title should be the best practices in jquery libray design
