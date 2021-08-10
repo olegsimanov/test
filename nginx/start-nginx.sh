@@ -9,4 +9,4 @@ docker run --rm \
 -v "${SCRIPT_DIR}"/nginx.conf:/etc/nginx/nginx.conf:ro  \
 -v "${SCRIPT_DIR}"/../static/:/var/www/html/static/ \
 -v "${SCRIPT_DIR}"/../index.html/:/var/www/html/index.html/ \
---name test-static -p 5443:80 scr.saal.ai/nginx:1.17.1
+--name test-static -p 5444:80 scr.saal.ai/nginx:1.17.1
