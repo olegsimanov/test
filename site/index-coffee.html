@@ -15,22 +15,11 @@
 </head>
 <body class="" lang="en-US">
 <link rel="stylesheet" type="text/css" href="/resources/test.css">
-<!--<script type="module" src="/js1/main-js.js" charset="utf-8"></script>-->
-<!--<script type="module">-->
+<script type="module" src="/js2/main-coffee.js" charset="utf-8"></script>
+<script type="module">
 
-<!--    console.log('window.foo: ' + window.foo);-->
-<!--    console.log('window.foo1: ' + window.foo1);-->
-<!--    window.main();-->
-
-
-<!--</script>-->
-
-
-<script type="text/javascript" src="/js2/main-coffee.js" charset="utf-8"></script>
-<script type="text/javascript">
-
-    'use strict'
-    calculate(10)
+    import * as mc from './js2/main-coffee.js'
+    console.log(mc.calculate(10))
 
 
 </script>

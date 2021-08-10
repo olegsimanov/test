@@ -10,5 +10,6 @@ docker run --rm \
 -v "${SCRIPT_DIR}"/../site/resources:/var/www/html/resources \
 -v "${SCRIPT_DIR}"/../site/js1:/var/www/html/js1 \
 -v "${SCRIPT_DIR}"/../site/js2:/var/www/html/js2 \
--v "${SCRIPT_DIR}"/../site/index.html:/var/www/html/index.html \
+-v "${SCRIPT_DIR}"/../site/index-js.html:/var/www/html/index-js.html \
+-v "${SCRIPT_DIR}"/../site/index-coffee.html:/var/www/html/index-coffee.html \
 --name test-static -p 5444:80 scr.saal.ai/nginx:1.17.1
