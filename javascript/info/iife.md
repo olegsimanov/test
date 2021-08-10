@@ -1,5 +1,22 @@
-long explanation: http://benalman.com/news/2010/11/immediately-invoked-function-expression/
-short explanation: https://stackoverflow.com/questions/8035822/why-write-callthis-at-the-end-of-an-javascript-anonymous-function
+http://benalman.com/news/2010/11/immediately-invoked-function-expression/
+
+Short explanation:
+--------
+
+In JavaScript, every function, when invoked, creates a new execution context. Because variables and functions defined within a function may only be accessed inside, but not outside, that context, invoking a function provides a very easy way to create privacy.
+
+It is used by the Module Pattern. 
+The Module Pattern approach is not only incredibly powerful, but incredibly simple. With very little code, you can effectively namespace related methods and properties, organizing entire modules of code in a way that both **minimizes global scope pollution** and creates privacy.
+
+Long explanation:
+--------
+
+
+
+
+
+
+[Some answers from stackoverflow]((https://stackoverflow.com/questions/8035822/why-write-callthis-at-the-end-of-an-javascript-anonymous-function))
 
 Answer 1:
 --------
