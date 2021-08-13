@@ -1,6 +1,5 @@
 [webpack 1.4.13 documentation:](https://github.com/webpack/docs/tree/master/tutorials/getting-started)
-
-
+[In depth understanding of webpack module loading principle](https://www.fatalerrors.org/a/in-depth-understanding-of-webpack-module-loading-principle.html)
 
 IMPORTANT:
 
