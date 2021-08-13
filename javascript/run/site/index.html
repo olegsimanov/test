@@ -15,11 +15,12 @@
 </head>
 <body class="" lang="en-US">
 <link rel="stylesheet" type="text/css" href="/resources/test.css">
-<script type="module" src="/js2/main-coffee.js" charset="utf-8"></script>
+<script type="module" src="/js/main-js.js" charset="utf-8"></script>
 <script type="module">
 
-    import * as mc from './js2/main-coffee.js'
-    console.log(mc.calculate(10))
+    console.log('window.foo: ' + window.foo);
+    console.log('window.foo1: ' + window.foo1);
+    window.main();
 
 
 </script>

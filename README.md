@@ -1,0 +1,11 @@
+folder structure: 
+----
+
+    coffee
+        - 
+        - 
+        - 
+
+    javascript
+        - 
+        - 

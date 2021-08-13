@@ -1,2 +1,0 @@
-calculate = (p) => cube(p)
-

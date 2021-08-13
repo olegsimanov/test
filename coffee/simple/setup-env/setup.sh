@@ -16,3 +16,7 @@ fi
 
 echo '>>> Installing NPM global requirements'
 gxargs -a autogen-npm-global-requirements.txt npm install -g
+
+npm --version
+node --version
+coffee --version
