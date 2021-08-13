@@ -15,6 +15,7 @@
         },
         output: {
             path: targetDir,
+            filename: path.join('js', 'lg-[name].js'),
         },
 
         module: {

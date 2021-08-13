@@ -1,8 +1,9 @@
 {
-  "dependencies": {},
   "devDependencies": {
 
-    "webpack": "^1.4.13"
+    "webpack": "^1.4.13",
+
+    "coffee-loader": "^0.9.0"
 
   }
 }

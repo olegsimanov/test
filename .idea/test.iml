@@ -18,6 +18,7 @@
       <excludeFolder url="file://$MODULE_DIR$/javascript/run" />
       <excludeFolder url="file://$MODULE_DIR$/coffee/simple/run" />
       <excludeFolder url="file://$MODULE_DIR$/coffee/webpack/run" />
+      <excludeFolder url="file://$MODULE_DIR$/coffee/webpack/info" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
