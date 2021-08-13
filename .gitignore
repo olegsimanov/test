@@ -1,3 +1,5 @@
 coffee/simple/out
 coffee/webpack/node_modules
 coffee/webpack/build
+coffee/webpack-and-other/node_modules
+coffee/webpack-and-other/build
