@@ -3,3 +3,4 @@ coffee/webpack/node_modules
 coffee/webpack/build
 coffee/webpack-and-other/node_modules
 coffee/webpack-and-other/build
+coffee/webpack-and-other/bower_components
