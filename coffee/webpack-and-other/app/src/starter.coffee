@@ -1,4 +1,9 @@
-s1 = require('./script1')
-console.log 'hello world'
-result = s1.cube(3)
-console.log('result: ' + result)
+'use strict'
+
+_ = require('underscore')
+Backbone = require('backbone')
+
+object = {};
+_.extend(object, Backbone.Events);
+object.on('expand', () => console.log 'expanded' );
+object.trigger('expand');

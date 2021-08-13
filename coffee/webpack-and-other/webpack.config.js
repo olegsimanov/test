@@ -2,10 +2,12 @@
 
     'use strict';
 
-    var path        = require('path');
+    var webpack             = require('webpack');
+    var path                = require('path');
 
-    var srcDir      = path.join(__dirname, 'app', 'src');
-    var targetDir   = path.join(__dirname, 'build');
+    var srcDir              = path.join(__dirname, 'app', 'src');
+    var targetDir           = path.join(__dirname, 'build');
+    var bowerComponentsDir  = path.join(__dirname, 'bower_components');
 
     module.exports = {
 
@@ -26,9 +28,17 @@
                 }
             ]
         },
-        plugins: [ ],
+        plugins: [
+            new webpack.ResolverPlugin(new webpack.ResolverPlugin.DirectoryDescriptionFilePlugin('bower.json', ['main']))
+        ],
         resolve: {
-            root: [ ],
+            root: [
+                bowerComponentsDir,
+
+                path.join(bowerComponentsDir, 'jquery'),
+
+            ],
+
             extensions: ['', '.js', '.coffee', '.json']
         }
     };

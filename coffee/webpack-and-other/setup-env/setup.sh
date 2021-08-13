@@ -20,5 +20,5 @@ gxargs -a autogen-npm-global-requirements.txt npm install -g
 npm --version
 node --version
 coffee --version
-#bower --version
+bower --version
 webpack 2>&1 | head -n1
