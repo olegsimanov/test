@@ -1,4 +1,10 @@
-[webpack 1.4.13 documentation:](https://github.com/webpack/docs/tree/master/tutorials/getting-started)
+[webpack 1.4.13 documentation](https://github.com/webpack/docs/tree/master/tutorials/getting-started)
+
+or
+
+[webpack 1.x documentation](http://www.apimirror.com/webpack~1)
+
+
 [In depth understanding of webpack module loading principle](https://www.fatalerrors.org/a/in-depth-understanding-of-webpack-module-loading-principle.html)
 
 IMPORTANT:
