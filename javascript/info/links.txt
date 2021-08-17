@@ -1,9 +1,0 @@
-------------------------------------------------------------------------------------------------------------------------
-Language Specification: https://262.ecma-international.org/6.0/
-MDN:                    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/
-Other:                  https://javascript.info
-------------------------------------------------------------------------------------------------------------------------
-ECMAScript explained:   http://dmitrysoshnikov.com/category/ecmascript/ (There are 35 posts filed in ECMAScript)
-
-                        - ECMA-262-3 in detail. Chapter 5. Functions    (http://dmitrysoshnikov.com/ecmascript/chapter-5-functions/#question-about-surrounding-parentheses)
-                        - JavaScript. The Core: 2nd Edition             (http://dmitrysoshnikov.com/ecmascript/javascript-the-core-2nd-edition/)
