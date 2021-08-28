@@ -51,7 +51,7 @@ Collection = Backbone.Collection.extend({
 });
 
 collection = new Collection();
-collection.create({})
-collection.create({})
-collection.create({})
+collection.create()
+collection.create()
+collection.create()
 collection.fetch()
