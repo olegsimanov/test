@@ -1,6 +1,7 @@
+https://coffeescript.org/v1/
+
 Syntax
 -------
-https://coffeescript.org/v1/
 
         CoffeeScript	JavaScript
         
@@ -17,3 +18,11 @@ https://coffeescript.org/v1/
         a ** b	        Math.pow(a, b)
         a // b	        Math.floor(a / b)
         a %% b	        (a % b + b) % b
+
+Everything is an Expression (at least, as much as possible)
+-------
+You might have noticed how even though we don’t add return statements to CoffeeScript functions, they nonetheless return their final value. \
+The CoffeeScript compiler tries to make sure that all statements in the language can be used as expressions.
+
+Even though functions will always return their final value, it’s both possible and encouraged to return early from a function \
+body writing out the explicit return (return value), when you know that you’re done.

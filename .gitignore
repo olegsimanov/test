@@ -1,6 +1,6 @@
 coffee/simple/out
 coffee/webpack/node_modules
 coffee/webpack/build
-coffee/webpack-and-other/node_modules
-coffee/webpack-and-other/build
-coffee/webpack-and-other/bower_components
+coffee/webpack-and-backbone/node_modules
+coffee/webpack-and-backbone/build
+coffee/webpack-and-backbone/bower_components

@@ -20,6 +20,11 @@ function main() {
 
 }
 
+const { value_f11, function_f2 } = mainObject
+
+console.log(value_f11);
+function_f2()
+
 // console.log(window.foo1)
 
 window.foo = "I'm created in the main module"
