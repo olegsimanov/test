@@ -27,14 +27,56 @@ if you don't add these two entries to the file:
 
 ### Usage:
 
-_require_ (Style: CommonJs)
+####_require_ (Style: CommonJs)
 
     require(dependency: String)
 
 Returns the exports from a dependency. The call is sync. No request to the server is fired. \
 The compiler ensures that the dependency is available.  
 
-_module.exports_ (Style: CommonJs)
+####_require.ensure_ (Style: CommonJs)
+
+    require.ensure(dependencies: String[], callback: function([require]), [chunkName: String])
+
+Download additional dependencies on demand. The dependencies array lists modules that should be available. 
+When they are, callback is called. If the callback is a function expression, dependencies in that source part \
+are extracted and also loaded on demand. A single request is fired to the server, except if all modules are already \
+available.
+
+This creates a chunk. The chunk can be named. If a chunk with this name already exists, the dependencies are merged \
+into that chunk and that chunk is used.
+
+Example:
+
+    // in file.js
+    var a = require("a");
+    require.ensure(["b"], function(require) {
+    var c = require("c");
+    });
+    require.ensure(["d"], function() {
+    var e = require("e");
+    }, "my chunk");
+    require.ensure([], function() {
+    var f = require("f");
+    }, "my chunk");
+
+    /* This results in:
+
+        * entry chunk
+          - file.js
+          - a
+        * anonymous chunk
+          - b
+          - c
+        * "my chunk"
+          - d
+          - e
+          - f
+    */
+
+
+
+####_module.exports_ (Style: CommonJs)
 
     // The require function
     function __webpack_require__(moduleId) {
