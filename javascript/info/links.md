@@ -31,3 +31,10 @@ javascript explained by Ryan Sukale
 [Crockford on JavaScript - Volume 1: The Early Years](https://www.youtube.com/watch?v=JxAXlJEmNMg)
 [Crockford on JavaScript - Chapter 2: And Then There Was JavaScript](https://www.youtube.com/watch?v=RO1Wnu-xKoY)
 [Crockford on JavaScript - Act III: Function the Ultimate](https://www.youtube.com/watch?v=ya4UHuXNygM&t=3023s)
+
+
+[Easy to understand](https://dev.to/godcrampy/series/2010)
+[ES6 for loops: Best Practices](https://dev.to/godcrampy/es6-for-loops-best-practices-4c86)
+[Coercion in JavaScript](https://dev.to/godcrampy/coercion-in-javscript-4k7g)
+[The Secret of Hoisting in JavaScript](https://dev.to/godcrampy/the-secret-of-hoisting-in-javascript-egi)
+[ES6 Arrow Functions: All you need to know](https://dev.to/godcrampy/es6-arrow-functions-all-you-need-to-know-5h4p)
